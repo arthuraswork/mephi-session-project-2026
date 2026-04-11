@@ -1,0 +1,1 @@
+sudo semanage fcontext -d -t httpd_exec_t "/data/mephi-web(/.*)?" 2>/dev/null"
